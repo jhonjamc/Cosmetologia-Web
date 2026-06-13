@@ -12,6 +12,9 @@ function Navbar() {
     const irAProductos = () => {
       navigate('/Productos'); // esta también con tu <Route path="/productos" />
     };
+    const irAServicios = () => {
+      navigate('/Servicios'); // esta también con tu <Route path="/servicios" />
+    };
   
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,6 +33,7 @@ function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Inicio</a>
             <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Servicios</a>
+            <button onClick={irAServicios} className="text-gray-700 hover:text-pink-600 transition duration-200">Servicios</button>
             <button onClick={irAProductos} className="text-gray-700 hover:text-pink-600 transition duration-200">Productos</button>
             <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Nosotros</a>
             <a href="#Footer" className="text-gray-700 hover:text-pink-600 transition duration-200">Contáctanos</a>
