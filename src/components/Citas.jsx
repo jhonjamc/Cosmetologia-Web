@@ -30,7 +30,7 @@ const Citas = () => {
       <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-6 border border-pink-100">
         <div className="text-center mb-6">
           <h2 className="text-2xl font-serif font-bold text-pink-600 mb-1">Agenda tu Cita</h2>
-          <p className="text-sm text-gray-500">Completa el formulario y reserva tu momento de belleza</p>
+          {!enviado && <p className="text-sm text-gray-500">Completa el formulario y reserva tu momento de belleza</p>}
           <div className="flex justify-center my-3">
             <div className="h-px w-16 bg-gradient-to-r from-transparent via-pink-300 to-transparent"></div>
           </div>

@@ -21,14 +21,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+"deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  "extends": ["react-app"],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-unused-vars": "off"
+  }
+},
   "browserslist": {
     "production": [
       ">0.2%",

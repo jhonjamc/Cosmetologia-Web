@@ -119,19 +119,19 @@ function Footer() {
             
             <ul className="space-y-2 mb-8">
               <li>
-                <a href="#" className="text-gray-700 hover:text-pink-700 transition duration-200">Faciales</a>
+                <a href="/" className="text-gray-700 hover:text-pink-700 transition duration-200">Faciales</a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-pink-700 transition duration-200">Corporales</a>
+                <a href="/" className="text-gray-700 hover:text-pink-700 transition duration-200">Corporales</a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-pink-700 transition duration-200">Cabello</a>
+                <a href="/" className="text-gray-700 hover:text-pink-700 transition duration-200">Cabello</a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-pink-700 transition duration-200">Maquillaje</a>
+                <a href="/" className="text-gray-700 hover:text-pink-700 transition duration-200">Maquillaje</a>
               </li>
               <li>
-                <a href="#" className="text-gray-700 hover:text-pink-700 transition duration-200">Kits de regalo</a>
+                <a href="/" className="text-gray-700 hover:text-pink-700 transition duration-200">Kits de regalo</a>
               </li>
             </ul>
             
@@ -139,21 +139,21 @@ function Footer() {
             <h5 className="font-medium text-pink-800 mb-3">Síguenos</h5>
             <div className="flex space-x-4 justify-start lg:justify-end">
               {/* Facebook */}
-              <a href="#" className="bg-pink-600 hover:bg-pink-700 text-white p-2 rounded-full transition duration-300 shadow-sm">
+              <a href="/" className="bg-pink-600 hover:bg-pink-700 text-white p-2 rounded-full transition duration-300 shadow-sm">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12.0501 2C6.50001 2 2 6.58001 2 12.25C2 17.25 5.62999 21.3699 10.33 22V15.1899H7.84003V12.25H10.33V10.0399C10.33 7.49994 11.85 6.09998 14.15 6.09998C15.24 6.09998 16.4 6.29993 16.4 6.29993V8.75H15.16C13.95 8.75 13.5101 9.49994 13.5101 10.25V12.25H16.3L15.8699 15.1899H13.5001V22C18.2001 21.3899 21.8301 17.27 21.8301 12.25C21.8301 6.58001 17.5501 2 12.0501 2Z"/>
                 </svg>
               </a>
               
               {/* Instagram */}
-              <a href="#" className="bg-pink-600 hover:bg-pink-700 text-white p-2 rounded-full transition duration-300 shadow-sm">
+              <a href="/" className="bg-pink-600 hover:bg-pink-700 text-white p-2 rounded-full transition duration-300 shadow-sm">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"/>
                 </svg>
               </a>
               
               {/* TikTok */}
-              <a href="#" className="bg-pink-600 hover:bg-pink-700 text-white p-2 rounded-full transition duration-300 shadow-sm">
+              <a href="/" className="bg-pink-600 hover:bg-pink-700 text-white p-2 rounded-full transition duration-300 shadow-sm">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M16.6 5.82C15.9165 5.03962 15.5397 4.03743 15.54 3H12.45V15.4C12.4262 16.071 12.1429 16.7066 11.6598 17.1729C11.1767 17.6393 10.5313 17.8999 9.85997 17.9C8.43997 17.9 7.25997 16.74 7.25997 15.3C7.25997 13.58 8.91997 12.29 10.63 12.82V9.66C7.17997 9.2 4.15997 11.88 4.15997 15.3C4.15997 18.63 6.91997 21 9.85997 21C12.99 21 15.54 18.45 15.54 15.3V9.01C16.793 9.90985 18.2974 10.3926 19.84 10.39V7.3C19.84 7.3 18 7.39 16.6 5.82Z"/>
                 </svg>

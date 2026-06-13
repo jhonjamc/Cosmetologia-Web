@@ -10,7 +10,7 @@ import Productos from './components/Productos';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Cosmetologia-Web">
       <Routes>
         {/* Ruta principal con toda tu estructura */}
         <Route

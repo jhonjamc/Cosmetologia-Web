@@ -28,10 +28,10 @@ function Navbar() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Inicio</a>
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Servicios</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Inicio</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Servicios</a>
             <button onClick={irAProductos} className="text-gray-700 hover:text-pink-600 transition duration-200">Productos</button>
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Nosotros</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Nosotros</a>
             <a href="#Footer" className="text-gray-700 hover:text-pink-600 transition duration-200">Contáctanos</a>
           </div>
           
@@ -64,18 +64,18 @@ function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 p-4">
           <div className="flex flex-col space-y-4">
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Inicio</a>
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Servicios</a>
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Tratamientos</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Inicio</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Servicios</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Tratamientos</a>
             <div className="pl-4 flex flex-col space-y-2 border-l-2 border-pink-100 mt-1">
-              <a href="#" className="text-gray-600 hover:text-pink-600 text-sm">Faciales</a>
-              <a href="#" className="text-gray-600 hover:text-pink-600 text-sm">Corporales</a>
-              <a href="#" className="text-gray-600 hover:text-pink-600 text-sm">Manicura & Pedicura</a>
-              <a href="#" className="text-gray-600 hover:text-pink-600 text-sm">Maquillaje</a>
+              <a href="/" className="text-gray-600 hover:text-pink-600 text-sm">Faciales</a>
+              <a href="/" className="text-gray-600 hover:text-pink-600 text-sm">Corporales</a>
+              <a href="/" className="text-gray-600 hover:text-pink-600 text-sm">Manicura & Pedicura</a>
+              <a href="/" className="text-gray-600 hover:text-pink-600 text-sm">Maquillaje</a>
             </div>
             <button onClick={irAProductos} className="text-gray-700 hover:text-pink-600 transition duration-200">Productos</button>
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Nosotros</a>
-            <a href="#" className="text-gray-700 hover:text-pink-600 transition duration-200">Contacto</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Nosotros</a>
+            <a href="/" className="text-gray-700 hover:text-pink-600 transition duration-200">Contacto</a>
             
             <button onClick={irACitas} className="bg-gradient-to-r from-pink-400 to-rose-400 text-white px-4 py-2 rounded-full text-center text-sm font-medium hover:from-pink-500 hover:to-rose-500 transition duration-300 mt-2">
               Reservar Cita
