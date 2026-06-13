@@ -23,7 +23,7 @@ const Citas = () => {
     📅 *Fecha:* ${fecha}
     🕒 *Hora:* ${hora}
     📝 *Comentarios:* ${comentarios}`;
-    const url = `https://wa.me/573106524191?text=${encodeURIComponent(mensaje)}`;
+    const url = `https://wa.me/573226868956?text=${encodeURIComponent(mensaje)}`;
 
     window.open(url, "_blank");
   };
