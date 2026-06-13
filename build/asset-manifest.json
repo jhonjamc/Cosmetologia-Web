@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jhonjamc/Cosmetologia-Web/static/css/main.a7c6ff4f.css",
+    "main.js": "/jhonjamc/Cosmetologia-Web/static/js/main.2241a78c.js",
+    "index.html": "/jhonjamc/Cosmetologia-Web/index.html",
+    "main.a7c6ff4f.css.map": "/jhonjamc/Cosmetologia-Web/static/css/main.a7c6ff4f.css.map",
+    "main.2241a78c.js.map": "/jhonjamc/Cosmetologia-Web/static/js/main.2241a78c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7c6ff4f.css",
+    "static/js/main.2241a78c.js"
+  ]
+}
