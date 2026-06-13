@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Cosmetologia-Web/static/css/main.a7c6ff4f.css",
-    "main.js": "/Cosmetologia-Web/static/js/main.65c3c9eb.js",
+    "main.js": "/Cosmetologia-Web/static/js/main.017ad348.js",
     "index.html": "/Cosmetologia-Web/index.html",
     "main.a7c6ff4f.css.map": "/Cosmetologia-Web/static/css/main.a7c6ff4f.css.map",
-    "main.65c3c9eb.js.map": "/Cosmetologia-Web/static/js/main.65c3c9eb.js.map"
+    "main.017ad348.js.map": "/Cosmetologia-Web/static/js/main.017ad348.js.map"
   },
   "entrypoints": [
     "static/css/main.a7c6ff4f.css",
-    "static/js/main.65c3c9eb.js"
+    "static/js/main.017ad348.js"
   ]
 }
