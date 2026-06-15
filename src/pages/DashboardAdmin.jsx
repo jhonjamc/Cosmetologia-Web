@@ -1,7 +1,7 @@
 function DashboardAdmin() {
   return (
     <div>
-      <h1>Panel del Administrador</h1>
+      <h1>Panel del Administrador para citas, Juan José</h1>
     </div>
   );
 }
