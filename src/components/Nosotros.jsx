@@ -161,17 +161,31 @@ function Nosotros() {
           </div>
         </div>
 
-        {/* CTA final */}
-        <div className="mt-20 text-center bg-gradient-to-r from-rose-100 to-pink-100 py-12 px-6 rounded-xl shadow-sm">
-          <h3 className="text-2xl font-serif text-pink-800 mb-4">Ven a conocernos</h3>
-          <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
-            Descubre por qué nuestros clientes confían en nosotros para realzar su belleza natural. 
-            Te esperamos para ofrecerte una experiencia única de bienestar y cuidado personal.
-          </p>
-          <button onClick={irACitas} className="bg-pink-600 text-white px-8 py-3 rounded-full hover:bg-pink-700 transition duration-300 shadow-md">
-            Reserva tu primera visita
-          </button>
-        </div>
+<div className="mt-20 text-center bg-gradient-to-r from-rose-100 to-pink-100 py-12 px-6 rounded-xl shadow-sm">
+  <h3 className="text-2xl font-serif text-pink-800 mb-4">
+    Accede a tu cuenta
+  </h3>
+
+  <p className="text-gray-700 mb-8 max-w-2xl mx-auto">
+    Inicia sesión para administrar o consultar tus citas.
+  </p>
+
+  <div className="flex flex-col sm:flex-row justify-center gap-4">
+    <button
+      onClick={() => navigate("/login-admin")}
+      className="bg-gray-800 text-white px-8 py-3 rounded-full hover:bg-gray-900 transition"
+    >
+      Administrador
+    </button>
+
+    <button
+      onClick={() => navigate("/login")}
+      className="bg-pink-600 text-white px-8 py-3 rounded-full hover:bg-pink-700 transition"
+    >
+      Cliente
+    </button>
+  </div>
+</div>
       </div>
     </section>
   );
